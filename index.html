@@ -12,13 +12,39 @@
 <body>
 <div class ="container">
   <nav>
-    <div class="nav-wrapper" id="navbar">
-      <a href="#" class="brand-logo center">Questions</a>
+    <div class="nav-wrapper">
+      <p class="brand-logo center">Welcome</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
       </ul>
     </div>
   </nav>
-  
+  <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+      <span class="card-title"></span>
+      <p>Welcome to movie night trivia, hit the start button to start. </p>
+    </div>
+    <div class="card-action">
+      <button id="starttrv" class="waves-effect waves-light btn">Start</a></button>
+    </div>
+  </div>
+
+   
+
+   <!-- Modal Structure -->
+   <div id="game" class="modal">
+     <div class="modal-content">
+      <ul class="collection with-header">
+        <li id="questions" class="collection-header"><h4></h4></li>
+        <li id ="answera" class="collection-item"></li>
+        <li id ="answerb" class="collection-item"></li>
+        <li id ="answerc" class="collection-item"></li>
+        <li id ="answerd" class="collection-item"></li>
+      </ul>
+     </div>
+     <div class="modal-footer">
+       <a id = "nextquest" class="waves-effect waves-green btn-flat">Next</a>
+     </div>
+   </div>
 </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/java/app.js"></script>
