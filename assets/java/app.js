@@ -37,9 +37,7 @@ M.Modal.init(document.querySelectorAll('.modal'),{})
 const starttrv = () =>{
   M.Modal.getInstance(document.getElementById('game')).open()
 }
-const next = () =>{
- M.Modal.getInstance(document.getElementById('nextquest')).close()
-}
+const next = () =>{}
 
 document.getElementById('starttrv').addEventListener('click', starttrv)
   
