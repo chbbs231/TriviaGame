@@ -32,13 +32,16 @@
 
    <!-- Modal Structure -->
    <div id="game" class="modal">
-     <div class="modal-content">
-      <ul class="collection with-header">
-        <li id="questions" class="collection-header"><h4></h4></li>
-        <li id ="answera" class="collection-item"><span><button id= "abutton"> </button></span></li>
-        <li id ="answerb" class="collection-item"></li>
-        <li id ="answerc" class="collection-item"></li>
-        <li id ="answerd" class="collection-item"></li>
+      <div class="modal-content">
+      <div id ="quiz"></div>
+        <div id = "choices">
+        <div class ="ansA" id = "optionA" onclick = "checkanswer(`A`)"></div>
+        <div class ="ansB"  id = "optionB" onclick = "checkanswer(`B`)"></div>
+        <div class ="ansC" id = "optionC" onclick = "checkanswer(`C`)"></div>
+        <div class ="ansD" id = "optionD" onclick = "checkanswer(`D`)"></div>
+          </div>
+       <div id = "timer"></div>
+       <div id = "score"></div>
       </ul>
      </div>
      <div class="modal-footer">
