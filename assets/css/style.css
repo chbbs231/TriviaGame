@@ -1,3 +1,9 @@
 .nav-wrapper {background-color: rgb(46, 13, 59)} 
 .waves-effect {background-color:rgb(46, 13, 59)}
 
+#quiz{font-size: 25px}
+
+/*const next = () =>{}
+document.getElementById('starttrv').addEventListener('click', starttrv)
+document.getElementById('nextquest').addEventListener('click', nextquest)
+*/
